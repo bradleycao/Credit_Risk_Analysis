@@ -59,3 +59,9 @@ In this project, using the credit card credit dataset from LendingClub, a peer-t
 - F1: 0.97
 
 ![AdaBoost](Resources/AdaBoost.png)
+
+## Summary:
+
+Of all the six models, we can see that the **Easy Ensemble Classifier** model performs better than the others. At 0.93 Accuracy Score, it has the highest score. Following that model is the **Balanced Random Forest Classifier** model with a 0.79 Accuracy Score. Also, these two models get the highest F1 score - weighted average of the Recall and Precision score, at 0.97 and 0.93 scores, respectively.
+
+With all of these high scores in Recall, Accuracy, and F1 scores, I would **recommend using the Easy Ensemble Classifier model** for the algorithm to predict credit risk for the LendingClub company.
